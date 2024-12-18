@@ -1,0 +1,1 @@
+delete  from  utp.alumnos where id_alumno = 3
