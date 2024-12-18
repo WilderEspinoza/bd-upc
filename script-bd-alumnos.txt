@@ -3,11 +3,12 @@ create database utp;
 use utp;
 
 create table alumnos(
-	id_alumno int primary key AUTO_INCREMENT NOT NULL,
+    id_alumno int primary key AUTO_INCREMENT NOT NULL,
     nombre_alumno varchar(100),
     apellido_alumno varchar(100),
     dni varchar(8) NOT NULL,
-    direccion varchar(200)
+    direccion varchar(200),
+    anio int
 )
 
 
