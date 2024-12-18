@@ -1,6 +1,6 @@
-create database upc;
+create database utp;
 
-use upc;
+use utp;
 
 create table alumnos(
 	id_alumno int primary key AUTO_INCREMENT NOT NULL,
@@ -11,6 +11,6 @@ create table alumnos(
 )
 
 
-INSERT INTO upc.alumnos(nombre_alumno,apellido_alumno,dni,direccion) VALUES('Wilder','Espinoza','46635819','av 26 de mayo');
-INSERT INTO upc.alumnos(nombre_alumno,apellido_alumno,dni,direccion) VALUES('Patricia','Poma','12345678','av 26 de mayo');
-INSERT INTO upc.alumnos(nombre_alumno,apellido_alumno,dni,direccion) VALUES('Eduardo','Perez','23456767','av 26 de mayo');
+INSERT INTO utp.alumnos(nombre_alumno,apellido_alumno,dni,direccion) VALUES('Wilder','Espinoza','46635819','av 26 de mayo');
+INSERT INTO utp.alumnos(nombre_alumno,apellido_alumno,dni,direccion) VALUES('Patricia','Poma','12345678','av 26 de mayo');
+INSERT INTO utp.alumnos(nombre_alumno,apellido_alumno,dni,direccion) VALUES('Eduardo','Perez','23456767','av 26 de mayo');
