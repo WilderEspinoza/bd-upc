@@ -1,0 +1,1 @@
+update utp.alumnos set nombre_alumno = 'pepe' where id_alumno = 1;
